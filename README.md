@@ -5,3 +5,5 @@ La aplicación cuenta con dos perfiles de usuario: clientes, que pueden registra
 El sistema maneja información detallada de cada concierto, como artista, precio, descripción, cupos disponibles, estado (activo o pausado) y si se encuentra en oferta. Las reservas pasan por distintos estados (pendiente, aprobada o cancelada) y se validan según el saldo del cliente, la disponibilidad de cupos y el estado del evento, aplicando descuentos cuando corresponde.
 
 El proyecto fue desarrollado utilizando HTML y JavaScript, aplicando estructuras básicas de programación y programación orientada a objetos mediante clases como Sistema, Cliente, Administrador, Concierto y Reserva. El objetivo principal es poner en práctica los conceptos vistos en la materia, asegurando una solución funcional, organizada y coherente con los requerimientos académicos.
+
+Para acceder al perfil usuario solo borre un 2 al nombre de usuario.
