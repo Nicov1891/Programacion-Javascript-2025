@@ -80,7 +80,7 @@ class Sistema {
 
     activarConciertoEstado(id) {
         let objConcierto = this.obtenerConciertosPorID(id);
-        if(objConcierto.cupos >= 1){
+        if (objConcierto.cupos >= 1) {
             objConcierto.estado = true;
         }
     }
@@ -417,9 +417,9 @@ class Reserva {
         this.estado = estado;
     }
 
-    estadoConcierto(){
+    estadoConcierto() {
         let texto = ``;
-        if(this.estado){
+        if (this.estado) {
             texto = "Pendiente";
         }
     }
